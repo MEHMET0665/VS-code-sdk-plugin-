@@ -4,6 +4,7 @@ import { applyImportTransform } from './transforms/importTransform';
 import { applyRenameMethodTransform } from './transforms/renameMethodTransform';
 
 export function activate(context: vscode.ExtensionContext) {
+  console.log('[SDK Migrator] Extension activated successfully');
   const disposable = vscode.commands.registerCommand(
     'sdkMigrator.runMigration',
     async () => {

@@ -18,7 +18,7 @@ This extension automates migration from a **legacy SDK** to a **new SDK** in Jav
 1. Install dependencies:
 
 ```bash
-cd "C:\Users\niaja\Documents\react examples\VS-code-sdk-plugin-"
+cd "C:\...VS-code-sdk-plugin-"
 npm install
 ```
 

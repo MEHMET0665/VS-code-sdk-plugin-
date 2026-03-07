@@ -59,8 +59,7 @@ export function activate(context: vscode.ExtensionContext) {
       }
 
       // For demo purposes, skip writing and show report in webview
-      // In a real extension, you would probably show a diff and then save on confirm
-
+      // TO DO LATER show a diff and then save on confirm
       const panel = vscode.window.createWebviewPanel(
         'sdkMigratorDashboard',
         'SDK Migrator Dashboard',
